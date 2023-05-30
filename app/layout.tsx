@@ -5,8 +5,8 @@ import ToasterContext from './context/ToasterContext'
 import Head from 'next/head'
 
 export const metadata = {
-  title: 'Messenger',
-  description: 'Messenger Clone',
+  title: 'BerkeMessenger',
+  description: 'Messenger Clone App',
 }
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="../public/manifest.json" />
       </Head>
       <body>
         <AuthContext>
