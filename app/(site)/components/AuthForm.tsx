@@ -150,7 +150,7 @@ const AuthForm = () => {
           />
           <div>
             <Button disabled={isLoading} fullWidth type="submit">
-              {variant === 'LOGIN' ? 'Sign in' : 'Register'}
+              {variant === 'LOGIN' ? 'Giriş Yap' : 'Katıl Hadi'}
             </Button>
           </div>
         </form>
@@ -169,7 +169,7 @@ const AuthForm = () => {
             </div>
             <div className="relative flex justify-center text-sm">
               <span className="bg-white px-2 text-gray-500">
-                Or continue with
+                Hesaplar ile devam
               </span>
             </div>
           </div>
@@ -197,13 +197,13 @@ const AuthForm = () => {
           "
         >
           <div>
-            {variant === 'LOGIN' ? 'New to Messenger?' : 'Already have an account?'} 
+            {variant === 'LOGIN' ? 'Buralarda yeni misin?' : 'Zaten hesabın var mı?'} 
           </div>
           <div 
             onClick={toggleVariant} 
             className="underline cursor-pointer"
           >
-            {variant === 'LOGIN' ? 'Create an account' : 'Login'}
+            {variant === 'LOGIN' ? 'Hesap oluştur' : 'Giriş Yap'}
           </div>
         </div>
       </div>

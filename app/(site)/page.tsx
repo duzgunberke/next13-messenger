@@ -33,7 +33,7 @@ const Auth = () => {
             text-gray-900
           "
           >
-            Sign in to your account
+            Berke ile konuşmak için giriş yap
         </h2>
       </div>
       <AuthForm />      
